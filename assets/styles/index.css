@@ -1,0 +1,324 @@
+body {
+    background-color: #808080;
+    text-align: center;
+    font-family: 'Palanquin Dark', sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/images/interior.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Home CSS */
+
+img {
+    padding: 30px;
+}
+
+.title {
+    font-size: 110px;
+    width: 50%;
+    padding-bottom: 20px;
+    margin: auto;
+    line-height: 1em;
+    text-transform: none;
+    letter-spacing: -.01em;
+    font-weight: 600;
+    color: #fff;
+}
+
+.subtitle {
+    line-height: 2.5em;
+    letter-spacing: .04em;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-weight: 500;
+    font-style: normal;
+}
+
+li {
+    margin: 0 20px 0px 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(255,255,255,.6);
+}
+
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 45px;
+        width: 99%;
+    }
+
+    .subtitle {
+        line-height: 2.0em;
+        letter-spacing: .04em;
+        margin-bottom: 16px;
+        font-size: 16px;
+    }
+
+    ul {
+        display: contents;
+    }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    .title {
+        width: 99%;
+    }
+
+    ul {
+        display: contents;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+    .title {
+        width: 99%;
+    }
+
+    ul {
+        display: contents;
+    }
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+    .title {
+        width: 68%;
+    }
+
+    ul {
+        display: contents;
+    }
+}
+
+/* End of Home CSS */
+
+/* Contact CSS */
+
+.contactHero {
+    background-color: #231f20;
+    width: 40%;
+    margin: auto;
+    height: 85vh;
+}
+
+.contactTitle {
+    font-size: 2em;
+    line-height: 2.5em;
+    letter-spacing: .04em;
+    border-bottom: 2px dashed #8d6262;
+    font-weight: 600;
+    margin: 0px 3rem;
+    color: blanchedalmond;
+}
+
+label {
+    color: #fff;
+    padding: 5px;
+}
+
+input {
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 0.2rem;
+    background-color: #f0f0f0;
+    font-size: 1rem;
+    padding: 0.5rem 0.25rem;
+}
+
+.submitBtn {
+    background-color: blanchedalmond;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.2rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.submitBtn:hover {
+    background-color: #ffe4b5;
+}
+
+section {
+    margin: 5%;
+}
+
+textarea {
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 0.2rem;
+    background-color: #f0f0f0;
+    font-size: 1rem;
+}
+
+.messageSection {
+    margin-right: 14%;
+}
+
+.subjectSection {
+    margin-right: 7%;
+}
+
+.messageLabel {
+    float: left;
+    margin-left: 19%;
+}
+
+@media (max-width: 480px) {
+    .contactTitle {
+        line-height: 1.5em;
+    }
+
+    .contactHero {
+        width: 100%;
+        height: 1%;
+    }
+
+    .messageLabel {
+        margin-left: 30%;
+    }
+
+    .messageSection {
+        margin-left: 18%;
+    }
+
+    .submitBtn {
+        margin-bottom: 5%;
+    }
+
+    li {
+        margin: 0;
+    }
+
+    textarea {
+        width: 99%;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+    .contactHero {
+        width: 83%;
+        height: 68vh;
+        margin-bottom: 4%;
+    }
+
+    .messageLabel {
+        margin-left: 21%;
+    }
+
+    .messageSection {
+        margin-right: unset;
+    }
+
+    textarea {
+        margin-right: 22%;
+    }
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+    .contactHero {
+        height: 55vh;
+    }
+
+    .messageLabel {
+        margin-left: 27%;
+    }
+
+    textarea {
+        margin-right: 30%;
+    }
+
+    .messageSection {
+        margin-right: none;
+    }
+}
+
+/* End of Contact CSS */
+
+/* Menu CSS */
+
+.menuHero {
+    background-color: #231f20;
+    width: 68%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.menuTitle {
+    color: #fbfbfb;
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px dashed #8d6262;
+    margin: 0 2rem;
+}
+
+.menuUl {
+    margin: 2rem 0 0 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.menuLi {
+    color: #fbfbfb;
+    font-size: 1.3em;
+    padding: 0;
+    list-style: none;
+    border: none;
+    opacity: 0.8;
+    cursor: initial;
+}
+
+.menuLi:not(:last-of-type) {
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 480px) {
+    .menuHero {
+        width: 90%;
+        display: block;
+        padding-bottom: 1%;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+    .menuHero {
+        width: 70%;
+        display: block;
+        padding-bottom: 1%;
+    }
+
+    .menuLi {
+        font-size: 1.5em;
+    }
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+    .menuHero {
+        width: 70%;
+        display: block;
+        padding-bottom: 1%;
+    }
+
+    .menuLi {
+        font-size: 1.5em;
+    }
+}
+
+/* End of Menu CSS */
