@@ -1,5 +1,5 @@
-# Etch-A-Sketch
-Etch-A-Sketch colouring app built with Vanilla JS
+# Restaurant-Page
+Restaurant page built with Vanilla JS
 
 ### Some Technologies used:
 * Vanilla JS
